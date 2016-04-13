@@ -1,0 +1,9 @@
+redis:
+  scale: 1
+pyapp:
+  scale: 2
+pyapplb:
+  scale: 1
+load_balancer_config:
+    name: pyapplbconfig
+
