@@ -1,6 +1,6 @@
 #!/bin/sh
 cd ${WORKSPACE}/src
-# WORKSPACE环境变量为/var/jenkins_home/jobs/CITEST/workspace
+#WORKSPACE环境变量为/var/jenkins_home/jobs/CITEST/workspace
 docker build -t 121.199.10.99:81/python-redis-demo:${BUILD_NUMBER} .
 #根据BUILD_NUMBER的变化创建一个新的容器镜像。
 
