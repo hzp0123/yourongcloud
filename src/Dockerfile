@@ -1,4 +1,4 @@
-FROM 120.76.41.28:5000/admin/python-with-flask-redis
+FROM 121.199.10.99:81/python-with-flask-redis
 ADD . /code
 WORKDIR /code
 EXPOSE 5000

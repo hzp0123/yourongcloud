@@ -1,10 +1,10 @@
 #!/bin/sh
 cd ${WORKSPACE}/src
 # WORKSPACE环境变量为/var/jenkins_home/jobs/CITEST/workspace
-docker build -t 120.76.41.28:5000/admin/python-redis-demo:${BUILD_NUMBER} .
+docker build -t 121.199.10.99:81/python-redis-demo:${BUILD_NUMBER} .
 #根据BUILD_NUMBER的变化创建一个新的容器镜像。
 
-docker push 120.76.41.28:5000/admin/python-redis-demo:${BUILD_NUMBER}
+docker push 121.199.10.99:81/python-redis-demo:${BUILD_NUMBER}
 #将容器镜像上传到Registry服务器上并重新命名。
 cd ${WORKSPACE}/test-build
 

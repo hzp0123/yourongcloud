@@ -6,7 +6,7 @@ stdin_open: true
 pyapp:
   restart: always
 tty: true
-  image: 120.76.41.28:5000/admin/python-redis-demo:$$BUILD_NUMBER$$
+  image: 121.199.10.99:81/python-redis-demo:$$BUILD_NUMBER$$
   links:
   - 'redis:'
 stdin_open: true
